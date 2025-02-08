@@ -1,0 +1,112 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+p{
+  color: white;
+}
+body{
+  background-color: rgb(65, 64, 64);
+  margin: 15px;
+}
+
+.title-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.title{
+  font-size: 60px;
+}
+
+.buttons-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+  align-items: center;
+  
+  
+}
+
+.buttons{
+  background: none;
+  cursor: pointer;
+  border-width: 4px;
+  border-color: white;
+  border-radius: 50%;
+  border-style: solid;
+  background-color: transparent;
+
+
+}
+.button-icon{
+  width: 120px;
+  height: 120px;
+  padding: 40px;
+  background-color: transparent;
+}
+
+.info-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.info{
+  font-size: 20px;
+  margin: 20px;
+}
+.buttonFlex{
+  display: flex;
+  justify-content: center;
+}
+.buttonContainer{
+justify-content: center;
+  display: flex;
+  justify-content: space-evenly;
+  width: 300px;
+  
+
+}
+.resetButton{
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border-style: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.autoplayButton{
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: red;
+  color: white;
+  border-style: none;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.button-icon-info{
+  width: 50px;
+  margin: 0px 10px;
+}
+
+.pick-container{
+  width: 400px;
+  display: flex;
+  align-items:center
+}
+
+.pick{
+  padding-bottom: 10px;
+}
+
